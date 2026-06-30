@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #faf9f6;
+  --card: #ffffff;
+  --ink: #21241f;
+  --line: #e6e3d9;
+  --accent: #1f6f54;
+}
+.dark {
+  --bg: #15171a;
+  --card: #202327;
+  --ink: #edeeea;
+  --line: #2c2f33;
+  --accent: #4fb890;
+}
+body { transition: background .2s ease, color .2s ease; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 18px; }
